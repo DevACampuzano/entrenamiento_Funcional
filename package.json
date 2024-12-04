@@ -1,0 +1,50 @@
+{
+  "name": "trainig_funtional",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android --reset-cache",
+    "ios": "react-native run-ios --reset-cache",
+    "lint": "eslint .",
+    "start": "react-native start --reset-cache",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.1.0",
+    "@react-navigation/drawer": "^7.0.7",
+    "@react-navigation/native": "^7.0.4",
+    "@react-navigation/native-stack": "^7.1.1",
+    "@react-navigation/stack": "^7.0.6",
+    "axios": "^1.7.7",
+    "react": "18.3.1",
+    "react-native": "0.76.3",
+    "react-native-date-picker": "^5.0.7",
+    "react-native-gesture-handler": "^2.21.2",
+    "react-native-radio-buttons-group": "^3.1.0",
+    "react-native-reanimated": "^3.16.2",
+    "react-native-safe-area-context": "^4.14.0",
+    "react-native-screens": "^4.3.0",
+    "react-native-webview": "^13.12.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.3",
+    "@babel/runtime": "^7.25.0",
+    "@react-native-community/cli": "15.0.1",
+    "@react-native-community/cli-platform-android": "15.0.1",
+    "@react-native-community/cli-platform-ios": "15.0.1",
+    "@react-native/babel-preset": "0.76.3",
+    "@react-native/eslint-config": "0.76.3",
+    "@react-native/metro-config": "0.76.3",
+    "@react-native/typescript-config": "0.76.3",
+    "@types/react": "^18.2.6",
+    "@types/react-test-renderer": "^18.0.0",
+    "babel-jest": "^29.6.3",
+    "jest": "^29.6.3",
+    "react-test-renderer": "18.3.1",
+    "typescript": "5.0.4"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
