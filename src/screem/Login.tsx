@@ -122,6 +122,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#4287f5",
     justifyContent: "center",
     alignItems: "center",
+    gap: 10,
   },
   title: {
     fontSize: 24,
@@ -134,6 +135,7 @@ const styles = StyleSheet.create({
     padding: 10,
     borderRadius: 5,
     marginVertical: 10,
+    color: "#000",
   },
   textButton: {
     fontSize: 20,
